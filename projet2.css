@@ -1,0 +1,205 @@
+/* changer la polcice / raleway*/
+
+
+
+
+/*logo reservia*/
+img
+{
+	width: 100px;
+}
+#logo
+{
+	width: 50px
+}
+
+
+
+
+
+/* nav*/
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li
+{
+    margin-right: 80px;
+}
+
+
+
+
+/* champs de saisie + bouton recherche*/
+
+
+
+
+
+
+
+
+
+/* filtres*/
+
+
+#filtres
+
+{
+display: flex;
+    justify-content: space-between;
+}
+ 
+
+
+
+
+
+
+/* section hebergement*/
+
+
+#les_hebergements
+{
+    display: flex;
+    text-align:right;
+    margin-top: 50px;
+background-color: grey;
+
+}
+
+#heber1
+{
+border: 2px solid white;
+margin-bottom: 50px;
+}
+
+#heber2
+{
+
+}
+
+#heber3
+{
+
+}
+
+#heber4
+{
+	
+}
+
+#heber5
+{
+	
+}
+
+#heber6
+{
+	
+}
+
+/* section les plus populaire*/
+
+#populaires
+{
+	
+
+text-align: right;
+}
+
+#pop1
+{
+
+}
+
+#pop2
+{
+
+}
+
+#pop3
+{
+
+
+}
+
+
+
+
+/* sectiction activité*/
+
+#les_activités
+{
+display: flex;
+}
+
+#act1
+{
+
+}
+
+
+#act2
+{
+	
+}
+
+#act3
+{
+	
+}
+
+
+#act4
+{
+	
+}
+
+#act5
+{
+	
+}
+
+
+#act6
+{
+	
+}
+
+
+
+/* footer*/
+
+
+
+footer
+ {
+ 	
+    list-style-type: none;
+    display: flex;
+justify-content: space-between;
+
+ }
+ #foot1
+ {
+
+ }
+ 
+#foot2
+{
+
+
+}
+
+
+#foot3
+
+{
+
+
+}
