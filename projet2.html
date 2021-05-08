@@ -1,205 +1,227 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="projet2.css"/>
-    <title> PROJET2 </title>
-  </head>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="projet2.css" />
+	<title> PROJET2 </title>
+</head>
 
-  <body>
+<body>
 
-<header>
+	<header>
 
-<!-- Mettre hebergement, activités et s'inscrire en <nav> -->
-<nav>
+		<!-- Mettre hebergement, activités et s'inscrire en <nav> -->
+		<nav>
 
-<ul>
-	<li><a href="#hebergements"> Hébergements</a></li>
-	<li><a href="#Activités">Activités </a></li>
-	<li><a href="">S'inscrire</a></li>
+			<ul>
+				<li><a href="#hebergements"> Hébergements</a></li>
+				<li><a href="#Activités">Activités </a></li>
+				<li><a href="">S'inscrire</a></li>
 
-</ul>
+			</ul>
 
-</nav>
+		</nav>
 
-<!-- mettre le logo RESERVIA ici-->
+		<!-- mettre le logo RESERVIA ici-->
 
-<p> 
- 
-<img id="logo"  src="logo/Reservia@3x.png" alt="logo RESERVIA"> </div>
-</p>
+		<p>
 
-<h4>Trouvez votre hébergement pour des vacances de rêve </h4>
-<h6>En plein centre ville ou en pleine nature </h6>
+			<img id="logo" src="logo/Reservia@3x.png" alt="logo RESERVIA"> </div>
+		</p>
 
-<!-- bouton de recherche --> 
-<form method="post" action="traitement.php">
+		<h1>Trouvez votre hébergement pour des vacances de rêve </h1>
+		<h2>En plein centre ville ou en pleine nature </h2>
 
-	<p> 
-<input type="search" name="recherche" placeholder="Marseille,France">
-<input type="submit" value="recherche">
-</p>
+		<!-- bouton de recherche -->
+		<form method="post" action="traitement.php">
 
+			<p>
+				<input type="search" name="recherche" placeholder="Marseille,France">
+				<input type="submit" value="recherche">
+			</p>
 
-</form>
 
+		</form>
 
 
 
-<!-- mettre les filtres-->
 
-<div id="filtres"> Filtres   <a href="">Économique</a>   <a  href="">Famillial</a>   <a href="">Romantique</a>   <a  href="">Animaux autorisés</a>
-</div>
+		<!-- mettre les filtres-->
 
-</header>
+		<div class="filtres"> Filtres <a href="">Économique</a> <a href="">Famillial</a> <a href="">Romantique</a> <a
+				href="">Animaux autorisés</a>
+		</div>
 
+	</header>
 
-<!--cela represente la section 1 avec les hebergements-->
-  	<section id="les_hebergements"> 
-  	
-  		
-  	
-  			<h3 id="hebergements">  Hébergements à marseille </h3>
-       <aside>
+<body>
+	<!--cela represente la section 1 avec les hebergements-->
+	
 
-  		
-  		<figure><img id="heber1" src= "3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg " alt= "auberge la cannebiere"/> <figcaption>Auberge de la cannebière</figcaption> <br> 
-       </figure>
 
 
-  		</aside>
+		<h3 id="hebergements"> Hébergements à marseille </h3>
+		
+		<section class="les_hebergements">
+		
+		<aside>
 
 
-<aside>
+			<figure><img class="heber" src="3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg " alt="auberge la cannebiere" />
+				<figcaption>Auberge de la cannebière</figcaption> <br>
+			</figure>
 
-<figure>
-<img id="heber2"  src="3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel du port"/> <figcaption>Hotel du port</figcaption> <br>
-</figure>
 
-</aside>
-  
-<aside>
+		</aside>
 
-<figure>
-<img id="heber3" src="3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel les mouettes "/> <figcaption>Hotel les mouettes</figcaption> <br>
-</figure>
 
-</aside>
+		<aside>
 
+			<figure>
+				<img class="heber" src="3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel du port" />
+				<figcaption>Hotel du port</figcaption> <br>
+			</figure>
 
-<aside>
+		</aside>
 
-<figure>
-<img id="heber4" src="3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel de la mer "/> <figcaption>Hotel de la mer</figcaption> <br>
-</figure>
+		<aside>
 
+			<figure>
+				<img class="heber" src="3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel les mouettes " />
+				<figcaption>Hotel les mouettes</figcaption> <br>
+			</figure>
 
-</aside>
+		</aside>
 
-<figure>
-<img id="heber5" src="3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge le panier"/> <figcaption>Auberge le panier</figcaption>   <br>
-</figure> 
 
+		<aside>
 
-<figure>
-<img id="heber6" src="3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel chez amina"/> <figcaption>Hotel chez amina</figcaption>
-</figure> 
+			<figure>
+				<img class="heber" src="3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel de la mer " />
+				<figcaption>Hotel de la mer</figcaption> <br>
+			</figure>
 
 
-</section>
-  	
+		</aside>
 
-  	<section id="populaires"> <!--section 2 avec "les plus populaires"-->
-  		<h3>Les plus populaires</h3>
-<p>  
-	<figure>
-	<img  src="3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin"/> <figcaption>Hotel le soleil du matin</figcaption><br>
-</figure>
+		<figure>
+			<img class="heber" src="3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge le panier" />
+			<figcaption>Auberge le panier</figcaption> <br>
+		</figure>
 
-<figure>
-<img src="3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt=" Au coeur de l'eau Chambres d'hotes"/> <figcaption>Au coeur de l'eau Chambres d'hotes</figcaption> <br>
-</figure>
 
-<figure>
-<img src="3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hotel tout bleu tout blanc"/> <FIGCAPTION>Hotel tout bleu tout blanc</FIGCAPTION>
-</figure>
-</p>
+		<figure>
+			<img class="heber" src="3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel chez amina" />
+			<figcaption>Hotel chez amina</figcaption>
+		</figure>
+	
 
-  	</section>
-  	
+	</section>
 
-  	<section id="les_activités"> <!--section3 avec les activités --> 
 
-<h3 id="Activités "> Activités à Marseille </h3>
-<p> 
-	<figure>
-	<img src="activité/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port"/> <figcaption>Vieux port</figcaption> <br>
-	</figure>
+	<section class="populaires">
+		<!--section 2 avec "les plus populaires"-->
+		<h3>Les plus populaires</h3>
+		<p>
+		<figure>
+			<img src="3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel le soleil du matin" />
+			<figcaption>Hotel le soleil du matin</figcaption><br>
+		</figure>
 
-	<figure>
-	<img src="activité/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de pomègues"/> <figcaption>Fort de pomègues</figcaption> <br>
-    </figure>
+		<figure>
+			<img src="3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt=" Au coeur de l'eau Chambres d'hotes" />
+			<figcaption>Au coeur de l'eau Chambres d'hotes</figcaption> <br>
+		</figure>
 
+		<figure>
+			<img src="3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hotel tout bleu tout blanc" />
+			<FIGCAPTION>Hotel tout bleu tout blanc</FIGCAPTION>
+		</figure>
+		</p>
 
- <figure>
- <img src="activité/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles du Frioul"/> <figcaption>Iles du Frioul</figcaption> <br>
-</figure>
+	</section>
 
-<figure>
- <img src="activité/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/> <figcaption>Parc National des Calanques </figcaption> <br>
-</figure>
- 
 
- <figure>
-<img src="activité/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"/> <figcaption>Notre-Dame-de-la-Garde</figcaption> <br>
-</figure>
+	<section id="les_activités">
+		<!--section3 avec les activités -->
 
-<p>
-	<figure>
-<img src="activité/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/> <FIGCAPTION>Parc Longchamp</FIGCAPTION>
-</figure>
+		<h3 id="Activités "> Activités à Marseille </h3>
+		<p>
+		<figure>
+			<img src="activité/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port" />
+			<figcaption>Vieux port</figcaption> <br>
+		</figure>
 
-</p>
+		<figure>
+			<img src="activité/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de pomègues" />
+			<figcaption>Fort de pomègues</figcaption> <br>
+		</figure>
 
-</section>
-  
 
+		<figure>
+			<img src="activité/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles du Frioul" />
+			<figcaption>Iles du Frioul</figcaption> <br>
+		</figure>
 
+		<figure>
+			<img src="activité/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" />
+			<figcaption>Parc National des Calanques </figcaption> <br>
+		</figure>
 
 
+		<figure>
+			<img src="activité/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" />
+			<figcaption>Notre-Dame-de-la-Garde</figcaption> <br>
+		</figure>
 
+		<p>
+		<figure>
+			<img src="activité/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp" />
+			<FIGCAPTION>Parc Longchamp</FIGCAPTION>
+		</figure>
 
+		</p>
 
-<footer> <!--ici il y aura le à propos--> 
+	</section>
 
-	<div>
-	<strong>A propos</strong> 
+</body>
 
-<p>  Fonctionnement du site </p>
- <p>  Conditions générales de vente</p>
- <p> Données et confidentialité</p>
-</div>
 
 
-	<div>
-	<strong>Nos hébergements</strong> 
-	 <p>Charte qualité </p> 
-	<p> Soumettre votre hôtel </p> 
-	</div>
 
 
 
-<br>
+	<footer>
+		<!--ici il y aura le à propos-->
 
-	<div>
-	<strong>Assistance</strong>
-	 <p> Centre d'aide </p>
-	Nous contacter <br>
-</div>
+		<div>
+			<h4>A propos</h4>
 
+			 <a href="">Fonctionnement du site</a> 
+			 <a href="">Conditions générales de vente</a>
+			 <a href="">Données et confidentialité</a>
+        </div>
 
-</footer>
+
+		<div>
+			<h4>Nos hébergements</h4>
+			<a href="">Charte qualité </a>
+			<a href="">Soumettre votre hôtel</a> 
+		</div>
+
+
+
+		
+
+		<div>
+			<h4>Assistance</h4>
+			<a href="">Centre d'aide</a>
+			<a href="">Nous contacter</a>
+		</div>
+
+
+	</footer>
 
 
 </body>
