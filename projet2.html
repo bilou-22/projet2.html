@@ -10,10 +10,14 @@
 <body>
 
 	<header>
+<!-- En tête -->
+	<!-- je mets le logo -->	
+<div> 
+   <img id="logo" src="logo/Reservia@3x.png" alt="logo RESERVIA"> 
+</div>
 
-		<!-- Mettre hebergement, activités et s'inscrire en <nav> -->
-		<nav>
-
+<!-- Mettre hebergement, activités et s'inscrire en <nav> -->
+		<nav> 
 			<ul>
 				<li><a href="#hebergements"> Hébergements</a></li>
 				<li><a href="#Activités">Activités </a></li>
@@ -22,48 +26,52 @@
 			</ul>
 
 		</nav>
+	</header>
+		
+	<div id="bloc-page"> 
+	<!-- je mets les deux phrases -->
 
-		<!-- mettre le logo RESERVIA ici-->
-
-		<p>
-
-			<img id="logo" src="logo/Reservia@3x.png" alt="logo RESERVIA"> </div>
-		</p>
-
+		<div id="phrase">  
 		<h1>Trouvez votre hébergement pour des vacances de rêve </h1>
 		<h2>En plein centre ville ou en pleine nature </h2>
-
-		<!-- bouton de recherche -->
+	</div>
+		<!-- formulaire -->
 		<form method="post" action="traitement.php">
 
-			<p>
+<!-- bouton de recherche-->
+			<div class="boutonrecherche">
 				<input type="search" name="recherche" placeholder="Marseille,France">
 				<input type="submit" value="recherche">
-			</p>
-
-
+			</div>
 		</form>
 
 
 
 
-		<!-- mettre les filtres-->
-
-		<div class="filtres"> Filtres <a href="">Économique</a> <a href="">Famillial</a> <a href="">Romantique</a> <a
-				href="">Animaux autorisés</a>
+		<!-- mettre les filtres--> 
+<!-- trouver le moyen de mettre les icones -->
+		<div class="filtres"> 
+			<p id="titre-filtre"> Filtres </p>  
+			<a href="">Économique</a> 
+			<a href="">Famillial</a> 
+			<a href="">Romantique</a> 
+			<a href="">Animaux autorisés</a>
 		</div>
+	</div>
 
-	</header>
+<!-- info sur le site-->
+	<p class="info"> Plus de 500 logements sont disponibles
+		dans cette ville
+	   </p>
 
-
+<div id="hebergementpopulaire"> <!--debut hebergementpopulaire-->
 	<!--cela represente la section 1 avec les hebergements-->
-	
+	<section id="les_hebergements">
+    <div class="titre"> 
+        <h3 id="hebergements"> Hébergements à marseille </h3>
+	</div>
 
-
-
-		<h3 id="hebergements"> Hébergements à marseille </h3>
 		
-		<section class="les_hebergements">
 		
 		<aside>
 
@@ -139,7 +147,7 @@
 			<FIGCAPTION>Hotel tout bleu tout blanc</FIGCAPTION>
 		</figure>
 		</p>
-
+	</div> <!-- hebergementpopulaire-->
 	</section>
 
 
